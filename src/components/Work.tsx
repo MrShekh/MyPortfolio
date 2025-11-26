@@ -4,6 +4,12 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+// Import images so Vite can bundle them correctly for production
+import mockFreeImg from "../assets/mock-free-api.png";
+import goldErpImg from "../assets/gold-erp.png";
+import dtcAdminImg from "../assets/dtc-admin.png";
+import officeTimeImg from "../assets/office-time-management.png";
+
 gsap.registerPlugin(useGSAP);
 
 const projects = [
@@ -12,7 +18,7 @@ const projects = [
     name: "Mocky Free API",
     category: "Free Mock API Service",
     tools: "TypeScript, Next.js, React, Tailwind CSS",
-    image: "/src/assets/mock-free-api.png",
+    image: mockFreeImg,
     link: "https://free-mock-a-pi.vercel.app/",
   },
   {
@@ -20,7 +26,7 @@ const projects = [
     name: "Gold ERP System",
     category: "ERP Dashboard for AM Jewellers",
     tools: "React, TypeScript, Charts, Responsive UI",
-    image: "/src/assets/gold-erp.png", // TODO: replace with real screenshot path
+    image: goldErpImg,
     link: "https://am-jwellers.vercel.app/",
   },
   {
@@ -28,7 +34,7 @@ const projects = [
     name: "DTC Admin Panel",
     category: "Admin Dashboard",
     tools: "React, TypeScript, REST APIs, Protected Routes",
-    image: "/src/assets/dtc-admin.png", // TODO: replace with real screenshot path
+    image: dtcAdminImg,
     link: "https://dtc-admin.netlify.app/",
   },
   {
@@ -36,7 +42,7 @@ const projects = [
     name: "Face Recognition Admin",
     category: "AI-based Attendance / Access Dashboard",
     tools: "React, Face Recognition API, Charts, Responsive UI",
-    image: "/src/assets/office-time-management.png", // TODO: replace with real screenshot path
+    image: officeTimeImg,
     link: "https://admin-face-recogniton.vercel.app/dashboard",
   },
 ];
