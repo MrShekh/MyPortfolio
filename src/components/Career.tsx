@@ -15,43 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full Stack &amp; Mobile App Developer</h4>
+                <h5>Freelance / Self-employed</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2023 - Present</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Designing and building custom web and mobile applications, e-commerce
+              platforms, delivery apps, office systems, and face recognition solutions
+              using modern, scalable tech stacks tailored to client needs.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Social Media Manager Intern</h4>
+                <h5>Digital Marketing &amp; Content</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>1 Year</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Managing end-to-end social media presence: content strategy, planning,
+              video editing (reels, shorts, promos), thumbnail design, SEO-focused
+              captions, and performance tracking using web and social analytics.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Computer Science Engineering Student</h4>
+                <h5>Rai University, Ahmedabad</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Ongoing</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Building a strong foundation in computer science while applying concepts
+              in real-world projects that combine software engineering, AI, and
+              practical problem solving.
             </p>
           </div>
         </div>

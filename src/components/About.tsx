@@ -6,10 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I’m Shekh Asif, a Computer Science Engineering student at Rai University, Ahmedabad.
-I specialize in full-stack development using React.js, Flutter, FastAPI, and MongoDB.
-My interests lie in combining AI and software to build real-world, scalable solutions.
-I’m a fast learner, team player, and passionate about delivering high-quality digital products.
+          I&apos;m Shekh Asif, a Full Stack &amp; Mobile App Developer and Social Media Manager
+          based in Ahmedabad, Gujarat. I build high-quality, custom websites and mobile
+          applications for businesses, startups, and individuals, and help brands grow
+          through strategic social media management and creative digital content.
         </p>
       </div>
     </div>
